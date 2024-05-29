@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-zeit_werte = [1, 2, 5, 10, 20, 30, 60, 120, 300, 600, 1200, 1800]
+zeit_werte = [1, 2, 5, 10, 20, 30, 60, 120, 180, 300, 600, 1000, 1200, 1600, 1800]
 
 
 def best_effort(df):
