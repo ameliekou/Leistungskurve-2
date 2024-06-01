@@ -28,6 +28,7 @@ def create_chart(df):
             tickvals=zeit_werte,
             ticktext=[f"{i//60}:{i%60}" for i in zeit_werte],
             tickangle=45  # Rotate the x-axis labels
+            
         )
     )
     return fig, Leistungskurve
